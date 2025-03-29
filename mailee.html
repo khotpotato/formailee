@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mailee's :]</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(158, 235, 236);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 100%;
+            background-image: url('/bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        main{
+            width: 678px;
+            background-color: rgba(255, 255, 255, 0.305);
+            border-radius: 70px;
+            transform: translateY(-20%);
+            backdrop-filter: blur(7px);
+            border-top: solid 1px rgba(255, 255, 255, 0.4);
+            border-left: solid 1px rgba(255, 255, 255, 0.4);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            color: white;
+            text-shadow: black 2px 0px;
+        }
+        #compliment{
+            color: pink;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+        .collie{
+            width: 100%;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        @media (max-width: 678px) {
+            main{
+                width: 80%;
+            }
+            h1{
+                font-size: 80%;
+            }
+        }
+        @media (max-width: 678px) {
+            .bgclass{
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="plane.png" class="bgclass">
+    <main>
+        <h1>a random collie dog, noodles :)</h1>
+        <img src="" id="collie" class="collie">
+        <h1 id="compliment"></h1>
+    </main>
+    <script src="mailee.js"></script>
+</body>
+</html>
